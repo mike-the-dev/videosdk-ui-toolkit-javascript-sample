@@ -3,7 +3,7 @@ import uitoolkit from './@zoom/videosdk-ui-toolkit/index.js'
 console.log("script loaded.");
 
 var sessionContainer = document.getElementById('sessionContainer')
-var authEndpoint = 'http://localhost:4000'
+var authEndpoint = 'https://8d4d-47-149-34-213.ngrok-free.app'
 var config = {
     videoSDKJWT: '',
     sessionName: 'bootsdevo',
